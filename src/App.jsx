@@ -1,8 +1,8 @@
 // App.jsx
 import React, { Suspense } from 'react';
 import './App.css';
-import TopNav from './components/TopNav/TopNav';
-import DashView from './components/DashView/DashView';
+import TopNav from './Components/TopNav/TopNav';
+import DashView from './Components/DashView/DashView';
 import { useRecoilValue } from 'recoil';
 import { dataState } from './Atom';
 import Loading from './components/Loading/Loading';
