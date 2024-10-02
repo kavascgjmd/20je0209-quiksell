@@ -1,0 +1,103 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 320px;
+  height: 165px;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card-id {
+  font-size: 14px;
+  color: #6B6B6B;
+  font-weight: 500;
+}
+
+.user-avatar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.user-avatar img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.availability-dot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  border: 2px solid white;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1E1E1E;
+  margin: 0 0 12px 0;
+  height: 120px;
+  text-overflow: ellipsis;
+  overflow:  hidden;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-priority,
+.card-status,
+.card-tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.card-priority {
+  background-color: #FFF0E6;
+  color: #FF7A00;
+}
+
+.card-status {
+  background-color: #F4F4F4;
+  color: #6B6B6B;
+}
+
+.card-tag {
+  background-color: #F4F4F4;
+  color: #6B6B6B;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-tag::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #6B6B6B;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: bold;
+}
