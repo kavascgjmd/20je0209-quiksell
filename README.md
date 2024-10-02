@@ -39,7 +39,7 @@ To set up and run the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kavascgjmd/20je0209-quiksell
    
 1. **Navigate to the project directory**:
    - Use the command line or terminal to change to the project folder where you cloned the repository.
