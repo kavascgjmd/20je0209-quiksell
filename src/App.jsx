@@ -5,7 +5,7 @@ import TopNav from './Components/TopNav/TopNav';
 import DashView from './Components/DashView/DashView';
 import { useRecoilValue } from 'recoil';
 import { dataState } from './Atom';
-import Loading from './components/Loading/Loading';
+import Loading from './Components/Loading/Loading';
 
 const App = () => {
   return (
